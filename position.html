@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            height:  1500px;
+        }
+        .banana{
+             width: 200px;
+            height: 200px;
+            background-color: rgb(216, 240, 33);
+            position: fixed;
+            top: 0px;
+            right: 60px;
+/*            position:fixed 是固定定位 定在所見畫面上 算常用*/
+            
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            z-index: 99;
+/*             z-index:;數字大的在前面*/
+        }.box2{
+            width: 200px;
+            height: 200px;
+            background-color: #b97823;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            z-index: 90;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="banana"></div>
+    <div class="box"></div>
+    <div class="box2"></div>
+    
+</body>
+</html>

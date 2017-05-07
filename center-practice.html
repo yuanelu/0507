@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 900px;
+            height: 400px;
+            background-color: #c7c7c7;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0;
+            text-align: center;
+        }
+        .container::before {
+            content: "";
+            vertical-align: middle;
+            display: inline-block;
+            height: 100%;
+        }
+        .content {
+            display: inline-block;
+            vertical-align: middle;
+            
+            width: 400px;
+            box-sizing: border-box;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+        .pic {
+            display: inline-block;
+            vertical-align: middle;
+            
+            width: 200px;
+            height: 200px;
+            background-color: #7989ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h3>QWERTY</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at quod repellendus aspernatur, laborum tempora saepe nam quis placeat dolore ab minima ad necessitatibus doloribus! Voluptates tempore dolorem dolorum nihil.</p>
+        </div>
+        <div class="pic"></div>
+    </div>
+</body>
+</html>
